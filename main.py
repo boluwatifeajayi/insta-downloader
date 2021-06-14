@@ -11,13 +11,9 @@
 #     post.download(f"{img}.png")
 
 import instaloader
-mod=instaloader.instaloader()
+mod=instaloader.Instaloader()
 
 print("insta photo downloader")
-user_name = input("enter profile username: ")
+a = input("enter profile username: ")
 
-mod.download_profile(username)
-
-
-
-
+mod.download_profile(a)
